@@ -1,0 +1,138 @@
+.hrf-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-30);
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+    width: 60%;
+    justify-content: center;
+    font-family: var(--font);
+    margin: 20px auto;
+    box-shadow: var(--box-shadow);
+}
+
+.hrf-heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hrf-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--blue-accent);
+}
+
+.hrf-subtitle {
+    font-size: 14px;
+    color: var(--black);
+}
+
+.hrf-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 16px;
+}
+
+.hrf-register-form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    gap: 10px;
+    border-bottom: 1px solid var(--grey-stroke);
+}
+
+.hrf-homename-field,
+.hrf-address-field {
+    display: flex;
+    gap: 20px;
+    height: 75px;
+}
+
+.label-section {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    width: 50%;
+}
+
+.input-label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.input-hint {
+    font-size: 14px;
+}
+
+.input-field-container {
+    display: flex;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.brgy-zipcode-field {
+    display: flex;
+    gap: 20px;
+}
+
+.empty-ragud {
+    width: 348px;
+    margin-left: auto;
+}
+
+.input-container-ragud {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 0 20px 10px 20px;
+    gap: 20px;
+}
+
+.hrf-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.referral-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.referral-heading {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.referral-code-field {
+    display: flex;
+    gap: 20px;
+}
+
+.ref-label-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.referral-input-field {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.hahaha {
+    display: flex;
+    height: 40px;
+    gap: 20px;
+}

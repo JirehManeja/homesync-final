@@ -1,0 +1,38 @@
+.column-names {
+    display: flex;
+    height: 65px;
+    padding: 20px 0;
+    font-family: var(--font);
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--grey-stroke);
+    margin: 10px 0;
+}
+
+.homename-col,
+.municipality-city-col,
+.role-col,
+.actions-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 263.2px;
+    height: 24px;
+}
+
+.barangay-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 24px;
+}
+
+.homename-col {
+    padding-left: 25px;
+}
+
+.homeitem-component-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

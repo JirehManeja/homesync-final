@@ -1,0 +1,18 @@
+.presets-wrapper {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    height: 100vh;
+}
+
+.content-section-presets {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.components-section-presets {
+    display: flex;
+    height: 100%;
+}

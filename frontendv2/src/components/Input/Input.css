@@ -1,0 +1,18 @@
+.input-tag {
+    font-family: var(--font);
+    background-color: var(--white-60);
+    display: flex;
+    width: auto;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-stroke);
+    outline: none;
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
+.input-tag::placeholder {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}

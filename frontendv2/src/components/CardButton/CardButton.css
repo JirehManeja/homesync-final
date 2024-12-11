@@ -1,0 +1,34 @@
+.card-button {
+    width: 50px;
+    height: 100%;
+    background-color: var(--blue-10);
+    border-radius: 8px;
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid var(--white-30);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font);
+}
+
+.card-button.active {
+    background-color: var(--white-30);
+    /* Light background for active state */
+    border-color: var(--grey-stroke);
+}
+
+.arrow {
+    font-size: 24px;
+    color: white;
+    /* White arrow for non-active state */
+    transition: color 0.3s ease;
+}
+
+.card-button.active .arrow {
+    color: black;
+    /* Black arrow for active state */
+}

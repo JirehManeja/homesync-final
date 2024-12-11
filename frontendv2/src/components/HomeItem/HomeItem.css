@@ -1,0 +1,44 @@
+.homeitem-wrapper {
+    height: 65px;
+    display: flex;
+    background-color: var(--white-30);
+    font-family: var(--font);
+    border-radius: 10px;
+    gap: 0;
+}
+
+.leftbar {
+    width: 10px;
+    height: 100%;
+    color: var(--blue-10);
+    background-color: var(--blue-10);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.homeitem-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.homename,
+.municipality-city,
+.barangay,
+.role {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 20px;
+}

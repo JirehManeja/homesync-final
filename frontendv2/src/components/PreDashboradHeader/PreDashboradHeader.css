@@ -1,0 +1,61 @@
+.pre-dash-header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    height: 72px;
+    width: 100%;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 20px;
+    width: 350px;
+}
+
+.nav-button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font);
+    color: var(--black);
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.nav-button.active {
+    color: var(--blue-accent);
+}
+
+.nav-button.active::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: blue;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+}
+
+.nav-button:hover {
+    opacity: 0.8;
+}
+
+.profile-pic {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--blue-accent);
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

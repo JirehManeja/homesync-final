@@ -1,0 +1,39 @@
+.rec-act-item-container {
+    display: flex;
+    padding: 12px 8px;
+    grid-area: 8px;
+    border-radius: 12px;
+    height: 80px;
+    align-items: center;
+    font-family: var(--font);
+    background-color: var(--background);
+}
+
+.rec-act-img-wrapper {
+    padding: 8px;
+}
+
+.rec-act-profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.rec-act-details-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.recent-activity {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.recent-activity-time {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--grey-accent);
+}

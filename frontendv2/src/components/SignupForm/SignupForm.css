@@ -1,0 +1,75 @@
+.signup-form-wrapper {
+    background-color: var(--white-30);
+    width: 50%;
+    padding: 36px 80px;
+    height: 100%;
+}
+
+.signup-form-container {
+    font-family: var(--font);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.CreateAccount {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: var(--blue-10);
+}
+
+.already-have-an-account-login {
+    display: flex;
+    gap: 4px;
+}
+
+.already-have-an-account {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: var(--blue-10);
+}
+
+.Loginn {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: var(--blue-accent);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fullname-input-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.i-agree-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.i-agree-to-the {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.terms-and-conditions {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: var(--blue-accent);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.social-login {
+    display: flex;
+    gap: 10px;
+}

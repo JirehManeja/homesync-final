@@ -1,0 +1,7 @@
+.edit-button-container {
+    padding: 4px;
+    background-color: var(--blue-10);
+    cursor: pointer;
+    height: 100%;
+    width: auto;
+}

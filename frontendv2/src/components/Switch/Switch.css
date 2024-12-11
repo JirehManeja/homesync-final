@@ -1,0 +1,27 @@
+.switch {
+    width: 60px;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s;
+}
+  
+.switch-handle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+}
+  
+.switch-on {
+    transform: translateX(30px);
+}
+  
+.switch-off {
+    transform: translateX(0);
+}  

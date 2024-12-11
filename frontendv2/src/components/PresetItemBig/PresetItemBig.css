@@ -1,0 +1,126 @@
+.preset-item-big-wrapper {
+    border-radius: 20px;
+    font-family: var(--font);
+    width: 32%;
+}
+
+.preset-item-big-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    border-radius: 20px;
+}
+
+.preset-item-big-name-wrapper {
+    padding: 8px;
+}
+
+.preset-item-big-name-container {
+    display: flex;
+    padding: 0 12px;
+    justify-content: space-between;
+    background-color: var(--blue-10);
+    height: 82px;
+    border-radius: 12px;
+}
+
+.preset-item-big-name-img-container {
+    display: flex;
+    gap: 8px;
+}
+
+.preset-item-big-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+}
+
+.preset-item-big-img {
+    width: 50px;
+    height: 50px;
+}
+
+.preset-item-big-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.preset-item-big-presetName {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white-30);
+}
+
+.preset-big-item-presetCreator {
+    font-size: 12px;
+    font-weight: 600;
+    /* color: var(--grey-accent); */
+    color: white;
+}
+
+.dot-container {
+    padding: 10px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot-img {
+    width: 20px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.preset-item-big-lower-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.preset-item-big-time-container {
+    display: flex;
+    padding: 5px 10px;
+    gap: 10px;
+}
+
+.time-range-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.clear-clock-img, .repeat-icon-img, .x-img {
+    width: 14px;
+    height: 14px;
+}
+
+.time-range, .repeat-times, .preset-item-big-date {
+    font-size: 10px;
+}
+
+.preset-item-big-repeat-container {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.preset-item-big-date-container, .some-empty-container {
+    display: flex;
+    padding: 5px 10px;
+    gap: 10px;
+}
+
+.date-range-container {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.three-buttons-container {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: space-evenly;
+}

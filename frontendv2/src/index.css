@@ -1,0 +1,35 @@
+:root {
+  /* Color Styles */
+  --white-60: #F3F4F6;
+  --white-30: #FFFFFF;
+  --blue-10: #013A71;
+  --grey-stroke: #C1C1C1;
+  --blue-accent: #0053C0;
+  --error-red: #F97979;
+  --black: #000000;
+  --grey-accent: #939393;
+  --green: #6EB45C;
+  --purple: #9045AD;
+  --sidebar-element-active: #12497D;
+  --sidebar-element-hovered: #C6D1E0;
+  --tab-color: #0D5FAD;
+  --background: #F5FBFD;
+  --card-icon-accent: #4C8FE7;
+  --dark-card: #262A2F;
+
+  /* Font */
+  --font: 'Poppins', sans-serif;
+
+  --box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--white-60);
+}
