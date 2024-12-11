@@ -21,6 +21,5 @@
 .components-section-members {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
     gap: 10px;
 }
