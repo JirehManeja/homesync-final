@@ -2,11 +2,12 @@ import './DashboardTabs.css'
 import Button from '../Button/Button'
 import { useState } from 'react'
 
-function DashboardTabs({ buttonNames }) {
-    const [activeIndex, setActiveIndex] = useState(null)
+function DashboardTabs({ buttonNames, onButtonClick }) {
+    const [activeIndex, setActiveIndex] = useState(0)
 
     const handleButtonClick = (index) => {
-        setActiveIndex(index)
+        setActiveIndex(index);
+        onButtonClick(index === 0 ? 'allPresets' : 'createPreset');
     }
 
     return(

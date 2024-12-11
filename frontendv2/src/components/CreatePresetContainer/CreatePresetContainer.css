@@ -1,0 +1,114 @@
+.cpc-container {
+    display: flex;
+    gap: 20px;
+    font-family: var(--font);
+    width: 100%;
+}
+
+.cpc-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cpc-preset-name-container {
+    display: flex;
+    padding: 16px 12px;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: var(--white-30);
+    box-shadow: var(--box-shadow);
+}
+
+.cpc-preset-img-container {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: var(--background);
+}
+
+.cpc-preset-img {
+    width: 50px;
+    height: 50px;
+}
+
+.cpc-preset-name-text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cpc-preset-name-text {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.cpc-preset-start-date-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px 8px;
+    border-radius: 12px;
+    background-color: var(--white-30);
+    box-shadow: var(--box-shadow);
+}
+
+.cpc-preset-start-date-text {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.cpc-preset-end-date-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px 8px;
+    border-radius: 12px;
+    background-color: var(--white-30);
+    box-shadow: var(--box-shadow);
+}
+
+.cpc-preset-end-date-text {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.cpc-right-wrapper {
+    display: flex;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: var(--white-30);
+    width: 100%;
+}
+
+.cpc-right-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    width: 100%;
+}
+
+.cpc-included-devices {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: var(--grey-accent);
+    width: 100%;
+}
+
+.dropdown-search-wrapper {
+    padding: 4px 0;
+}
+
+.dropdown-search-container {
+    display: flex;
+    padding: 8px 4px;
+    gap: 8px;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.shrinker-chuchu {
+    width: 200%;
+    color: var(--white-30);
+}

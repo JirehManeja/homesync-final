@@ -1,0 +1,30 @@
+.repeating-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    border-radius: 8px;
+    font-family: var(--font);
+    background-color: var(--white-30);
+    box-shadow: var(--box-shadow);
+}
+
+.isRepeating-container {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid var(--grey-stroke);
+}
+
+.isRepeating-text, .repeating-text {
+    width: 80%;
+    letter-spacing: 0.5px;
+}
+
+.repeating-child-container {
+    display: flex;
+    padding: 8px 4px;
+    gap: 20px;
+    align-items: center;
+}

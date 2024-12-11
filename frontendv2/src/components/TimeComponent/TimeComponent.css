@@ -1,0 +1,33 @@
+.time-component-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 4px 16px 4px;
+    gap: 12px;
+    border-radius: 8px;
+    background-color: var(--white-30);
+    box-shadow: var(--box-shadow);
+    font-family: var(--font);
+    height: 100%;
+}
+
+.all-day-switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    width: 100%;
+    border-bottom: 1px solid var(--grey-stroke);
+}
+
+.all-day-text, .start-time-text, .end-time-text {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    width: 80%;
+}
+
+.start-time-container, .end-time-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    gap: 4px;
+}

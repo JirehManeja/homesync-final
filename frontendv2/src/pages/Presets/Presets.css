@@ -5,6 +5,10 @@
     height: 100vh;
 }
 
+.sidebar-section-presets {
+    height: 100%;
+}
+
 .content-section-presets {
     display: flex;
     flex-direction: column;

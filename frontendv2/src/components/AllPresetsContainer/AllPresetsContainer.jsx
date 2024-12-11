@@ -15,9 +15,7 @@ function AllPresetsContainer() {
                 <PresetItemBig presetName={'Gaming'} presetCreator={'Armenion'}/>
                 <PresetItemBig presetName={'Haom'} presetCreator={'Maneja'}/>
                 <PresetItemBig presetName={'Lulu Session'} presetCreator={'Pelayo'}/>
-                <PresetItemBig presetName={'Totoy Session'} presetCreator={'Jireh'}/>
-                <PresetItemBig presetName={'Totoy Session'} presetCreator={'Jireh'}/>
-                <PresetItemBig presetName={'Totoy Session'} presetCreator={'Jireh'}/>
+                <PresetItemBig presetName={'Lulu Session'} presetCreator={'Pelayo'}/>
             </div>
         </div>
     )
