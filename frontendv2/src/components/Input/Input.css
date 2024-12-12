@@ -1,3 +1,8 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .input-tag {
     font-family: var(--font);
     background-color: var(--white-60);
@@ -9,10 +14,22 @@
     outline: none;
     padding: 0 20px;
     flex-grow: 1;
+    transition: border-color 0.3s ease;
 }
 
 .input-tag::placeholder {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.5px;
+}
+
+.input-tag.input-error {
+    border-color: var(--error-red); /* Replace var(--red) with your error color */
+    background-color: var(--white-80); /* Optional, highlights the error state */
+}
+
+.error-message {
+    font-size: 10px;
+    color: var(--error-red);
+    margin-top: 4px;
 }

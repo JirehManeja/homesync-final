@@ -73,3 +73,9 @@
     display: flex;
     gap: 10px;
 }
+
+.success-message {
+    color: var(--green);
+    font-size: 11px;
+    text-align: center;
+}

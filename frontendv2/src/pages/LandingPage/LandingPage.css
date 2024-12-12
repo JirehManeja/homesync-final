@@ -90,11 +90,20 @@
 }
 
 .img-section3, .img-section5 {
+    display: flex;
+    justify-content: center;
     width: 50%;
 }
 
-.sec-3-pic, .sec-5-pic {
+
+.sec-3-pic {
     width: 100%;
+    height: 100%;
+    padding: 30px 20px;
+}
+
+.sec-5-pic {
+    width: 60%;
     height: 100%;
     padding: 30px 20px;
 }
