@@ -6,7 +6,8 @@
     border-radius: 12px;
     font-family: var(--font);
     background-color: var(--white-30);
-    width: 100%;
+    width: 420px;
+    height: 390px;
 }
 
 .create-device-overlay-title-container {

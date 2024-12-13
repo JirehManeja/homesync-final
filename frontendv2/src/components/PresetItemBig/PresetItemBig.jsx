@@ -1,12 +1,23 @@
 import './PresetItemBig.css'
 import Button from '../Button/Button'
 import React, { useState } from 'react'
+import Modal from '../Modal/Modal'
+import PresetDetailsOverlayEdit from '../PresetDetailsOverlayEdit/PresetDetailsOverlayEdit'
 
 function PresetItemBig({presetName, presetCreator}) {
     const [isActive, setIsActive] = useState(false)
+    const [isModalOpen, setIsModalOpen] = useState(false)
 
     const handleButtonClick = () => {
         setIsActive(!isActive)
+    }
+
+    const handleEditClick = () => {
+        setIsModalOpen(true)
+    }
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false)
     }
 
     return(
@@ -60,11 +71,18 @@ function PresetItemBig({presetName, presetCreator}) {
                             textColor='white'
                             onClick={handleButtonClick}
                         />
-                        <Button buttonName={'Edit'}/>
+                        <Button 
+                            buttonName={'Edit'} 
+                            onClick={handleEditClick}
+                        />
                         <Button buttonName={'Delete'} bgColor='#F97979' textColor='white'/>
                     </div>
                 </div>
             </div>
+
+            <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
+                <PresetDetailsOverlayEdit />
+            </Modal>
         </div>
     )
 }

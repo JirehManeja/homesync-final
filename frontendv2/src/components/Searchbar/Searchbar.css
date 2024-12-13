@@ -6,6 +6,7 @@
     border-radius: 8px;
     background: var(--white-30);
     border: 1px solid var(--grey-accent);
+    width: 100%;
 }
 
 .search-input {

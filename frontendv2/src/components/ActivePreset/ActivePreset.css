@@ -5,8 +5,9 @@
     background-color: #D1DBDC;
     gap: 12px;
     font-family: var(--font);
-    width: 100%;
     border-radius: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 .active-preset-switch-container {
@@ -29,7 +30,7 @@
 .act-preset-details-container {
     display: flex;
     padding: 4px;
-    gap: 10px;
+    gap: 20px;
     width: 100%;
     height: 100%;
     align-items: center;
@@ -50,6 +51,9 @@
     display: flex;
     flex-direction: column;
     font-family: var(--font);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 }
 
 .active-preset-name {
@@ -59,11 +63,11 @@
 }
 
 .activated-by {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--grey-accent);
 }
 
 .active-preset-time-text {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--black);
 }

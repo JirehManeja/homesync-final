@@ -7,9 +7,15 @@ import { useState } from 'react';
 
 function Presets() {
     const [activeComponent, setActiveComponent] = useState('allPresets'); // Default component
+    const [activeTabIndex, setActiveTabIndex] = useState(0); // State for active tab index
 
     const handleButtonClick = (component) => {
         setActiveComponent(component);
+        if (component === 'createPreset') {
+            setActiveTabIndex(1); // Set active tab index to 1 for Create Preset
+        } else {
+            setActiveTabIndex(0); // Set active tab index to 0 for All Presets
+        }
     };
 
     return (
@@ -23,11 +29,14 @@ function Presets() {
                     <DashboardHeader 
                         buttonNames={['All Presets', 'Create Preset']} 
                         onButtonClick={handleButtonClick} // Pass the click handler
+                        activeIndex={activeTabIndex} // Pass the active index to DashboardHeader
                     />
                 </div>
 
                 <div className="components-section-presets">
-                    {activeComponent === 'allPresets' && <AllPresetsContainer />}
+                    {activeComponent === 'allPresets' && 
+                        <AllPresetsContainer onCreatePreset={() => handleButtonClick('createPreset')} />
+                    }
                     {activeComponent === 'createPreset' && <CreatePresetContainer />}
                 </div>
             </div>

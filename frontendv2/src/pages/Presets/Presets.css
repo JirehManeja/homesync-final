@@ -1,19 +1,20 @@
 .presets-wrapper {
     display: flex;
-    gap: 10px;
-    padding: 10px;
+    padding-right: 16px;
     height: 100vh;
 }
 
 .sidebar-section-presets {
     height: 100%;
+    padding: 16px 20px;
 }
 
 .content-section-presets {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
     width: 100%;
+    padding: 16px 0;
 }
 
 .components-section-presets {

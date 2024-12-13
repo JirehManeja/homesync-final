@@ -5,7 +5,7 @@ import DashboardHeader from '../../components/DashboardHeader/DashboardHeader'
 function Profile() {
     return (
         <div className="profile-wrapper">
-            <div className="sidebar-section">
+            <div className="sidebar-section-profile">
                 <Sidebar />
             </div>
 
@@ -15,7 +15,7 @@ function Profile() {
                 </div>
 
                 <div className="components-section-profile">
-                    
+
                 </div>
             </div>
         </div>

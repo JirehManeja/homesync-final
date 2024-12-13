@@ -1,13 +1,14 @@
 .member-card-container {
     display: flex;
-    height: 180px;
-    width: 49%;
+    height: 200px;
+    width: 580px;
     border-radius: 10px;
     border-left: 10px solid var(--blue-10);
     gap: 10px;
-    padding: 12px;
+    padding: 12px 12px 12px 20px;
     background-color: var(--white-30);
     font-family: var(--font);
+    flex-grow: 1;
 }
 
 .member-img-wrapper {
@@ -39,8 +40,12 @@
 .details-member {
     display: flex;
     width: 100%;
+    height: 90%;
+    justify-content: space-between;
     gap: 10px;
+    padding: 4px 8px;
     flex-direction: column;
+    border-left: 1px solid var(--grey-stroke);
 }
 
 .names-member,

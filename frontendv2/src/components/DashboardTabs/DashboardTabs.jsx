@@ -1,12 +1,16 @@
 import './DashboardTabs.css'
 import Button from '../Button/Button'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
-function DashboardTabs({ buttonNames, onButtonClick }) {
-    const [activeIndex, setActiveIndex] = useState(0)
+function DashboardTabs({ buttonNames, onButtonClick, activeIndex }) { // Accept activeIndex as a prop
+    const [currentActiveIndex, setCurrentActiveIndex] = useState(activeIndex);
+
+    useEffect(() => {
+        setCurrentActiveIndex(activeIndex); // Update local state when activeIndex changes
+    }, [activeIndex]);
 
     const handleButtonClick = (index) => {
-        setActiveIndex(index);
+        setCurrentActiveIndex(index);
         onButtonClick(index === 0 ? 'allPresets' : 'createPreset');
     }
 
@@ -17,7 +21,7 @@ function DashboardTabs({ buttonNames, onButtonClick }) {
                     key={index} 
                     buttonName={name} 
                     onClick={() => handleButtonClick(index)} 
-                    bgColor={activeIndex === index ? '#467DB2' : '#0D5FAD'}
+                    bgColor={currentActiveIndex === index ? '#467DB2' : '#0D5FAD'}
                     textColor='white' 
                 />
             ))}
@@ -25,4 +29,4 @@ function DashboardTabs({ buttonNames, onButtonClick }) {
     )
 }
 
-export default DashboardTabs
+export default DashboardTabs;

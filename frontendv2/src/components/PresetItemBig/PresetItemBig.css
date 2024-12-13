@@ -1,7 +1,8 @@
 .preset-item-big-wrapper {
     border-radius: 20px;
     font-family: var(--font);
-    width: 32%;
+    width: 376.67px;
+    height: 266px;
 }
 
 .preset-item-big-container {
@@ -19,7 +20,7 @@
     display: flex;
     padding: 0 12px;
     justify-content: space-between;
-    background-color: var(--blue-10);
+    background-color: var(--preset-header-color);
     height: 82px;
     border-radius: 12px;
 }
@@ -50,14 +51,12 @@
 .preset-item-big-presetName {
     font-size: 20px;
     font-weight: 600;
-    color: var(--white-30);
 }
 
 .preset-big-item-presetCreator {
     font-size: 12px;
     font-weight: 600;
-    /* color: var(--grey-accent); */
-    color: white;
+    color: var(--grey-accent);
 }
 
 .dot-container {
@@ -91,12 +90,16 @@
     width: 100%;
 }
 
-.clear-clock-img, .repeat-icon-img, .x-img {
+.clear-clock-img,
+.repeat-icon-img,
+.x-img {
     width: 14px;
     height: 14px;
 }
 
-.time-range, .repeat-times, .preset-item-big-date {
+.time-range,
+.repeat-times,
+.preset-item-big-date {
     font-size: 10px;
 }
 
@@ -107,7 +110,8 @@
     width: 100%;
 }
 
-.preset-item-big-date-container, .some-empty-container {
+.preset-item-big-date-container,
+.some-empty-container {
     display: flex;
     padding: 5px 10px;
     gap: 10px;
@@ -122,5 +126,5 @@
 .three-buttons-container {
     display: flex;
     padding: 10px 24px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }

@@ -1,14 +1,19 @@
 .members-wrapper {
     display: flex;
-    gap: 10px;
-    padding: 10px;
+    padding-right: 16px;
     height: 100vh;
+}
+
+.sidebar-section-members {
+    height: 100%;
+    padding: 16px 20px;
 }
 
 .content-section-members {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
+    padding: 16px 0;
     width: 100%;
 }
 
@@ -16,10 +21,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding: 12px 0;
 }
 
 .components-section-members {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
